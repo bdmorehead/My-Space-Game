@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace SpaceGameMine
 {
-    class Program
+    class TradingPost
     {
-        static void Main(string[] args)
+        public void AddItem(string item)
         {
-            TradingPost inventory = new TradingPost();
-            inventory.AddItem(Gold)
-
+            items.Add(item)
         }
+        List<string> items
     }
 }
