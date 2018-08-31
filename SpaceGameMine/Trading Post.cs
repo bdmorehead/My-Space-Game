@@ -8,10 +8,7 @@ namespace SpaceGameMine
 {
     class TradingPost
     {
-        public void AddItem(string item)
-        {
-            items.Add(item)
-        }
-        List<string> items
+
+        Dictionary<string, int> availableCargo = new Dictionary<string, int>();
+        
     }
-}
